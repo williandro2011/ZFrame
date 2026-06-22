@@ -31,7 +31,7 @@ class MainNavigationScreen extends StatefulWidget {
 class _MainNavigationScreenState extends State<MainNavigationScreen> {
   int _currentIndex = 0;
 
-  // Telas provisórias para cada pilar da ZFrame
+  // Telas provisorias para cada pilar da ZFrame
   final List<Widget> _screens = [
     const Center(child: Text('🗪 Feed (Textos e Fotos - X/Instagram)', style: TextStyle(fontSize: 20))),
     const Center(child: Text('📺 ZTube (Vídeos dos Usuários)', style: TextStyle(fontSize: 20))),
